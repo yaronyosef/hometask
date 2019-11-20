@@ -1,0 +1,26 @@
+.Contacts {
+    height: 100vh;
+    overflow: hidden auto;
+}
+
+.Contacts-row {
+    height: 60px;
+    width: 300px;
+    display: flex;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Contacts-photo {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    display: block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.Contacts-details {
+    display: flex;
+    flex-direction: column;
+}

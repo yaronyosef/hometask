@@ -1,0 +1,44 @@
+.Chat {
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+
+
+.Chat-row{
+    color: #fff;
+    background-color: red;
+    margin-bottom: 30px;
+    padding: 10px;
+    position: relative;
+    text-align: right;
+}
+
+.Chat-currentUser{
+    background-color: gray;
+    text-align: left;
+}
+
+.Chat-last:after {
+    content: '';
+    border-right: 0px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 20px solid red;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: -20px;
+    right: 0px;
+}
+
+.Chat-currentUser:after{
+    border-left: 0px solid transparent;
+    border-right: 20px solid transparent;
+    border-top-color: gray;
+    left: 0px;
+}
+
+.input {
+    position: fixed;
+    bottom: 0;
+}
